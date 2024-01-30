@@ -1,1 +1,10 @@
 msg: Welcome To Ashok It
+spring:
+  datasource:
+    password: naveen@125
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
